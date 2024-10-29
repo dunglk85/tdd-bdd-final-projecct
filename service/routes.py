@@ -147,10 +147,6 @@ def get_products(product_id):
     app.logger.info("Returning product: %s", product.name)
     return product.serialize(), status.HTTP_200_OK
 
-#
-# PLACE YOUR CODE HERE TO READ A PRODUCT
-#
-
 ######################################################################
 # UPDATE AN EXISTING PRODUCT
 ######################################################################
